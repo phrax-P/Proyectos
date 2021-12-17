@@ -1,2 +1,2 @@
 # Proyectos
-Material aprendido
+Material aprendido durante los semestres
