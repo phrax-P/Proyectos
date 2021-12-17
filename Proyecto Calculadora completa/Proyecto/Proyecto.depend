@@ -1,0 +1,246 @@
+# depslib dependency file v1.0
+1614196374 source:/home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/main.cpp
+	"Calculadora.h"
+
+1612479431 /usr/local/include/FL/Fl.H
+	<FL/Fl_Export.H>
+	<FL/Fl_Cairo.H>
+	"fl_utf8.h"
+	"Enumerations.H"
+	<stdio.h>
+	<FL/Fl.H>
+	<FL/Fl_Window.H>
+
+1612479431 /usr/local/include/FL/Fl_Export.H
+
+1612479431 /usr/local/include/FL/Fl_Cairo.H
+	<FL/Fl_Export.H>
+	<cairo.h>
+
+1612479431 /usr/local/include/FL/fl_utf8.h
+	"Fl_Export.H"
+	"fl_types.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<locale.h>
+	<ctype.h>
+	<wchar.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<X11/Xlocale.h>
+	<X11/Xlib.h>
+	<locale.h>
+
+1612479431 /usr/local/include/FL/fl_types.h
+
+1612479431 /usr/local/include/FL/Enumerations.H
+	<FL/abi-version.h>
+	"Fl_Export.H"
+	"fl_types.h"
+
+1612479431 /usr/local/include/FL/abi-version.h
+
+1612479431 /usr/local/include/FL/Fl_Window.H
+	<windows.h>
+	"Fl_Group.H"
+	"Fl_Bitmap.H"
+	<stdlib.h>
+
+1612479431 /usr/local/include/FL/Fl_Group.H
+	"Fl_Widget.H"
+
+1612479431 /usr/local/include/FL/Fl_Widget.H
+	"Enumerations.H"
+	<stdint.h>
+	<stddef.h>
+
+1612479431 /usr/local/include/FL/Fl_Bitmap.H
+	"Fl_Image.H"
+
+1612479431 /usr/local/include/FL/Fl_Image.H
+	"Enumerations.H"
+	<stdlib.h>
+
+1612479431 /usr/local/include/FL/Fl_Box.H
+	"Fl_Widget.H"
+
+1614204892 source:/home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/src/Boton.cpp
+	"Boton.h"
+
+1614196374 /home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/include/Boton.h
+	<FL/Fl_Window.H>
+	<FL/Fl.H>
+	<FL/Fl_Button.H>
+	<iostream>
+	<stdio.h>
+	<FL/Fl_Output.H>
+	<string>
+	<stack>
+	<queue>
+	<map>
+	"enum_base.h"
+	"aritmetic_base.h"
+	"expsymbol.h"
+	"infix2postfix.h"
+	"postfixEval.h"
+	"aritmetic_expression_eval.h"
+	"d_except.h"
+	<sstream>
+
+1612479431 /usr/local/include/FL/Fl_Button.H
+	"Fl_Widget.H"
+
+1612479431 /usr/local/include/FL/Fl_Output.H
+	"Fl_Input.H"
+
+1612479431 /usr/local/include/FL/Fl_Input.H
+	"Fl_Input_.H"
+
+1612479431 /usr/local/include/FL/Fl_Input_.H
+	"Fl_Widget.H"
+
+1614196374 source:/home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/src/Calculadora.cpp
+	"Calculadora.h"
+
+1614196374 /home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/include/Calculadora.h
+	"Boton.h"
+	<list>
+
+1611788359 /home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/include/d_util.h
+	<iostream>
+	<vector>
+	<string>
+	<list>
+	<map>
+	"d_stree.h"
+
+1611788359 /home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/include/d_stree.h
+	<cstddef>
+	<iomanip>
+	<sstream>
+	<string>
+	<queue>
+	<utility>
+	"d_except.h"
+	"d_stiter.h"
+
+1614196374 /home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/include/d_except.h
+	<sstream>
+	<string>
+
+1613172197 /home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/include/d_inftop.h
+	<iostream>
+	<string>
+	<stack>
+	<queue>
+	<ctype.h>
+	"d_expsym.h"
+	"d_except.h"
+
+1613172197 /home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/include/d_expsym.h
+
+1613172197 /home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/include/d_rpn.h
+	<iostream>
+	<string>
+	<stack>
+	<ctype.h>
+	"d_except.h"
+
+1613260615 /home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/include/analizador_aritmetico.h
+	<iostream>
+	<string>
+	<stack>
+	<queue>
+	<map>
+	"../../../IE0217/Semana04/Clase11/Modulo_17/prj/Analizador_aritmetico_evaluacion_algebraica/enum_base.h"
+	"../../../IE0217/Semana04/Clase11/Modulo_17/prj/Analizador_aritmetico_evaluacion_algebraica/aritmetic_base.h"
+	"../../../IE0217/Semana04/Clase11/Modulo_17/prj/Analizador_aritmetico_evaluacion_algebraica/expsymbol.h"
+	"../../../IE0217/Semana04/Clase11/Modulo_17/prj/Analizador_aritmetico_evaluacion_algebraica/infix2postfix.h"
+	"../../../IE0217/Semana04/Clase11/Modulo_17/prj/Analizador_aritmetico_evaluacion_algebraica/postfixEval.h"
+	"../../../IE0217/Semana04/Clase11/Modulo_17/prj/Analizador_aritmetico_evaluacion_algebraica/aritmetic_expression_eval.h"
+	"../../../IE0217/Semana04/Clase11/Modulo_17/prj/Analizador_aritmetico_evaluacion_algebraica/d_except.h"
+
+1611788359 /home/kenny/Desktop/III 2020/Estructuras..../IE0217/Semana04/Clase11/Modulo_17/prj/Analizador_aritmetico_evaluacion_algebraica/enum_base.h
+
+1611788359 /home/kenny/Desktop/III 2020/Estructuras..../IE0217/Semana04/Clase11/Modulo_17/prj/Analizador_aritmetico_evaluacion_algebraica/aritmetic_base.h
+
+1611788359 /home/kenny/Desktop/III 2020/Estructuras..../IE0217/Semana04/Clase11/Modulo_17/prj/Analizador_aritmetico_evaluacion_algebraica/expsymbol.h
+
+1611788359 /home/kenny/Desktop/III 2020/Estructuras..../IE0217/Semana04/Clase11/Modulo_17/prj/Analizador_aritmetico_evaluacion_algebraica/infix2postfix.h
+
+1611788359 /home/kenny/Desktop/III 2020/Estructuras..../IE0217/Semana04/Clase11/Modulo_17/prj/Analizador_aritmetico_evaluacion_algebraica/postfixEval.h
+
+1611788359 /home/kenny/Desktop/III 2020/Estructuras..../IE0217/Semana04/Clase11/Modulo_17/prj/Analizador_aritmetico_evaluacion_algebraica/aritmetic_expression_eval.h
+
+1611788359 /home/kenny/Desktop/III 2020/Estructuras..../IE0217/Semana04/Clase11/Modulo_17/prj/Analizador_aritmetico_evaluacion_algebraica/d_except.h
+	<sstream>
+	<string>
+
+1613260426 source:/home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/src/analizador_aritmetico.cpp
+	"analizador_aritmetico.h"
+
+1614196374 /home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/include/enum_base.h
+
+1614196374 /home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/include/aritmetic_base.h
+
+1614196374 /home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/include/expsymbol.h
+
+1614196374 /home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/include/infix2postfix.h
+
+1614196374 /home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/include/postfixEval.h
+
+1614196374 /home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/include/aritmetic_expression_eval.h
+
+1614196374 source:/home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/src/expsymbol.cc
+	<stack>
+	<queue>
+	"enum_base.h"
+	"expsymbol.h"
+
+1614196374 source:/home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/src/infix2postfix.cc
+	<iostream>
+	<string>
+	<stack>
+	<queue>
+	<map>
+	<ctype.h>
+	<stdlib.h>
+	"enum_base.h"
+	"aritmetic_base.h"
+	"expsymbol.h"
+	"d_except.h"
+	"infix2postfix.h"
+
+1614196374 source:/home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/src/postfixEval.cc
+	<math.h>
+	<iostream>
+	<string>
+	<stack>
+	<queue>
+	<map>
+	<ctype.h>
+	<stdlib.h>
+	"enum_base.h"
+	"aritmetic_base.h"
+	"postfixEval.h"
+	"d_except.h"
+
+1613965633 source:/home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/src/Boton_borrar.cpp
+	"Boton_borrar.h"
+
+1613965633 /home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/include/Boton_borrar.h
+
+1613965643 source:/home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/src/Boton_borrar_todo.cpp
+	"Boton_borrar_todo.h"
+
+1613965643 /home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/include/Boton_borrar_todo.h
+
+1613965618 source:/home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/src/Boton_general.cpp
+	"Boton_general.h"
+
+1613965618 /home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto/include/Boton_general.h
+

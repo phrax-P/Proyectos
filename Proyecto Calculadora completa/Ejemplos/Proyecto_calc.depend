@@ -1,0 +1,90 @@
+# depslib dependency file v1.0
+1612548135 source:/home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto_calc/main.cpp
+	<FL/Fl.H>
+	<FL/Fl_Window.H>
+	"EventWindow.h"
+
+1612479431 /usr/local/include/FL/Fl.H
+	<FL/Fl_Export.H>
+	<FL/Fl_Cairo.H>
+	"fl_utf8.h"
+	"Enumerations.H"
+	<stdio.h>
+	<FL/Fl.H>
+	<FL/Fl_Window.H>
+
+1612479431 /usr/local/include/FL/Fl_Export.H
+
+1612479431 /usr/local/include/FL/Fl_Cairo.H
+	<FL/Fl_Export.H>
+	<cairo.h>
+
+1612479431 /usr/local/include/FL/fl_utf8.h
+	"Fl_Export.H"
+	"fl_types.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<locale.h>
+	<ctype.h>
+	<wchar.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<X11/Xlocale.h>
+	<X11/Xlib.h>
+	<locale.h>
+
+1612479431 /usr/local/include/FL/fl_types.h
+
+1612479431 /usr/local/include/FL/Enumerations.H
+	<FL/abi-version.h>
+	"Fl_Export.H"
+	"fl_types.h"
+
+1612479431 /usr/local/include/FL/abi-version.h
+
+1612479431 /usr/local/include/FL/Fl_Window.H
+	<windows.h>
+	"Fl_Group.H"
+	"Fl_Bitmap.H"
+	<stdlib.h>
+
+1612479431 /usr/local/include/FL/Fl_Group.H
+	"Fl_Widget.H"
+
+1612479431 /usr/local/include/FL/Fl_Widget.H
+	"Enumerations.H"
+	<stdint.h>
+	<stddef.h>
+
+1612479431 /usr/local/include/FL/Fl_Bitmap.H
+	"Fl_Image.H"
+
+1612479431 /usr/local/include/FL/Fl_Image.H
+	"Enumerations.H"
+	<stdlib.h>
+
+1612549123 /home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto_calc/include/EventWindow.h
+	<FL/Fl_Window.H>
+	<FL/Fl.H>
+	<stdio.h>
+
+1612549324 source:/home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Proyecto_calc/src/EventWindow.cpp
+	"EventWindow.h"
+
+1614194847 source:/home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Ejemplos/main.cpp
+	<FL/Fl.H>
+	<FL/Fl_Window.H>
+	"EventWindow.h"
+
+1614138133 /home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Ejemplos/include/EventWindow.h
+	<FL/Fl_Window.H>
+	<FL/Fl.H>
+	<stdio.h>
+
+1614194847 source:/home/kenny/Desktop/III 2020/Estructuras..../IE0217_Trabajos/Ejemplos/src/EventWindow.cpp
+	"EventWindow.h"
+
