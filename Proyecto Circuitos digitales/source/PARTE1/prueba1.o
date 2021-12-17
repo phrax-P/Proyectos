@@ -1,0 +1,161 @@
+#! c:/iverilog-x64/bin/vvp
+:ivl_version "10.1 (stable)" "(v10_1_1)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 9;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_00000000027e3480 .scope module, "DFF_enable_negado" "DFF_enable_negado" 2 2;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "clk"
+    .port_info 1 /INPUT 1 "en"
+    .port_info 2 /INPUT 1 "d"
+    .port_info 3 /OUTPUT 1 "q"
+    .port_info 4 /OUTPUT 1 "q_n"
+o00000000027e7d48 .functor BUFZ 1, C4<z>; HiZ drive
+L_00000000027a34b0 .functor NOT 1, o00000000027e7d48, C4<0>, C4<0>, C4<0>;
+o00000000027e7da8 .functor BUFZ 1, C4<z>; HiZ drive
+L_00000000027e1390 .functor NOT 1, o00000000027e7da8, C4<0>, C4<0>, C4<0>;
+o00000000027e7d78 .functor BUFZ 1, C4<z>; HiZ drive
+L_00000000027d7a70 .functor AND 1, o00000000027e7d78, L_00000000027e1390, C4<1>, C4<1>;
+L_00000000027d7ae0 .functor AND 1, o00000000027e7da8, L_00000000028414d0, C4<1>, C4<1>;
+L_00000000028411c0 .functor OR 1, L_00000000027d7a70, L_00000000027d7ae0, C4<0>, C4<0>;
+L_0000000002840f90 .functor NOT 1, L_00000000028411c0, C4<0>, C4<0>, C4<0>;
+L_0000000002841380 .functor NAND 1, L_00000000028411c0, L_00000000027a34b0, C4<1>, C4<1>;
+L_00000000028412a0 .functor NAND 1, L_0000000002840f90, L_00000000027a34b0, C4<1>, C4<1>;
+L_0000000002841230 .functor NAND 1, L_0000000002841380, L_0000000002841460, C4<1>, C4<1>;
+L_0000000002841460 .functor NAND 1, L_00000000028412a0, L_0000000002841230, C4<1>, C4<1>;
+L_0000000002841310 .functor NOT 1, L_0000000002841230, C4<0>, C4<0>, C4<0>;
+L_00000000028413f0 .functor NAND 1, L_0000000002841230, o00000000027e7d48, C4<1>, C4<1>;
+L_0000000002841150 .functor NAND 1, L_0000000002841310, o00000000027e7d48, C4<1>, C4<1>;
+L_00000000028414d0 .functor NAND 1, L_00000000028413f0, L_0000000002841070, C4<1>, C4<1>;
+L_0000000002841070 .functor NAND 1, L_0000000002841150, L_00000000028414d0, C4<1>, C4<1>;
+v00000000027e74a0_0 .net "and1_out", 0 0, L_00000000027d7a70;  1 drivers
+v00000000027e7680_0 .net "and2_out", 0 0, L_00000000027d7ae0;  1 drivers
+v00000000027e7360_0 .net "clk", 0 0, o00000000027e7d48;  0 drivers
+v00000000027e7540_0 .net "d", 0 0, o00000000027e7d78;  0 drivers
+v00000000027e6dc0_0 .net "en", 0 0, o00000000027e7da8;  0 drivers
+v00000000027e75e0_0 .net "nand11_out", 0 0, L_00000000028413f0;  1 drivers
+v00000000027e6fa0_0 .net "nand1_out", 0 0, L_0000000002841380;  1 drivers
+v00000000027e7ae0_0 .net "nand2_out", 0 0, L_0000000002841230;  1 drivers
+v00000000027e7720_0 .net "nand33_out", 0 0, L_0000000002841150;  1 drivers
+v00000000027e77c0_0 .net "nand3_out", 0 0, L_00000000028412a0;  1 drivers
+v00000000027e7860_0 .net "nand4_out", 0 0, L_0000000002841460;  1 drivers
+v00000000027e7220_0 .net "not1_out", 0 0, L_00000000027e1390;  1 drivers
+v00000000027e7040_0 .net "not2_out", 0 0, L_0000000002840f90;  1 drivers
+v00000000027e7c20_0 .net "not3_out", 0 0, L_00000000027a34b0;  1 drivers
+v00000000027e7b80_0 .net "not4_out", 0 0, L_0000000002841310;  1 drivers
+v00000000027e79a0_0 .net "or1_out", 0 0, L_00000000028411c0;  1 drivers
+v00000000027e7a40_0 .net "q", 0 0, L_00000000028414d0;  1 drivers
+v00000000027e6f00_0 .net "q_n", 0 0, L_0000000002841070;  1 drivers
+S_00000000027d77e0 .scope module, "FFD_enable_tb" "FFD_enable_tb" 3 5;
+ .timescale -9 -9;
+v00000000027e7180_0 .var "clk", 0 0;
+v00000000027e7400_0 .var "d", 0 0;
+v00000000027e6d20_0 .var "en", 0 0;
+v000000000283ef70_0 .net "q", 0 0, v00000000027e72c0_0;  1 drivers
+S_00000000027a2970 .scope module, "FFD_conduc" "BasicDFF_enable" 3 20, 4 1 0, S_00000000027d77e0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "clk"
+    .port_info 1 /INPUT 1 "en"
+    .port_info 2 /INPUT 1 "d"
+    .port_info 3 /OUTPUT 1 "q"
+v00000000027e6e60_0 .net "clk", 0 0, v00000000027e7180_0;  1 drivers
+v00000000027e70e0_0 .net "d", 0 0, v00000000027e7400_0;  1 drivers
+v00000000027e7900_0 .net "en", 0 0, v00000000027e6d20_0;  1 drivers
+v00000000027e72c0_0 .var "q", 0 0;
+E_00000000027de550 .event posedge, v00000000027e6e60_0;
+    .scope S_00000000027a2970;
+T_0 ;
+    %wait E_00000000027de550;
+    %load/vec4 v00000000027e7900_0;
+    %pad/u 32;
+    %cmpi/e 0, 0, 32;
+    %jmp/0xz  T_0.0, 4;
+    %load/vec4 v00000000027e70e0_0;
+    %assign/vec4 v00000000027e72c0_0, 0;
+    %jmp T_0.1;
+T_0.0 ;
+    %load/vec4 v00000000027e72c0_0;
+    %store/vec4 v00000000027e72c0_0, 0, 1;
+T_0.1 ;
+    %jmp T_0;
+    .thread T_0;
+    .scope S_00000000027d77e0;
+T_1 ;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000000027e7180_0, 0, 1;
+    %delay 1, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000000027e7180_0, 0, 1;
+    %delay 1, 0;
+    %jmp T_1;
+    .thread T_1;
+    .scope S_00000000027d77e0;
+T_2 ;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000000027e6d20_0, 0, 1;
+    %delay 3, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000000027e6d20_0, 0, 1;
+    %delay 3, 0;
+    %jmp T_2;
+    .thread T_2;
+    .scope S_00000000027d77e0;
+T_3 ;
+    %vpi_call 3 24 "$dumpfile", "prueba1.vcd" {0 0 0};
+    %vpi_call 3 25 "$dumpvars", 32'sb00000000000000000000000000000001, S_00000000027d77e0 {0 0 0};
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000000027e7400_0, 0, 1;
+    %delay 9, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000000027e7400_0, 0, 1;
+    %delay 1, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000000027e7400_0, 0, 1;
+    %delay 1, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000000027e7400_0, 0, 1;
+    %delay 2, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000000027e7400_0, 0, 1;
+    %delay 1, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000000027e7400_0, 0, 1;
+    %delay 12, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000000027e7400_0, 0, 1;
+    %delay 1, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000000027e7400_0, 0, 1;
+    %delay 2, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000000027e7400_0, 0, 1;
+    %delay 1, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000000027e7400_0, 0, 1;
+    %delay 1, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000000027e7400_0, 0, 1;
+    %delay 1, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000000027e7400_0, 0, 1;
+    %delay 1, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000000027e7400_0, 0, 1;
+    %delay 7, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000000027e7400_0, 0, 1;
+    %delay 8, 0;
+    %vpi_call 3 29 "$stop" {0 0 0};
+    %vpi_call 3 30 "$finish" {0 0 0};
+    %end;
+    .thread T_3;
+# The file index is used to find the file name in the following table.
+:file_names 5;
+    "N/A";
+    "<interactive>";
+    "./FFD_enable_estruc.v";
+    ".\FFD_enable_tb.v";
+    "./FFD_enable.v";

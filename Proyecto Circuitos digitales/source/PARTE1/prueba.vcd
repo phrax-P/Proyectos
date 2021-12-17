@@ -1,0 +1,79 @@
+$date
+	Fri Dec 10 23:13:05 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module FFD_enable_tb $end
+$var wire 1 ! q $end
+$var reg 1 " clk $end
+$var reg 1 # d $end
+$var reg 1 $ en $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1$
+0#
+1"
+x!
+$end
+#10
+0"
+#15
+0$
+#20
+0!
+1"
+#30
+0"
+1$
+#40
+1"
+#45
+0$
+#50
+0"
+#60
+1"
+1$
+1#
+#70
+0"
+#75
+0$
+#80
+1!
+1"
+#90
+0"
+1$
+#100
+1"
+#105
+0$
+#110
+0"
+#120
+1"
+1$
+#130
+0"
+#135
+0$
+#140
+0!
+1"
+0#
+#150
+0"
+1$
+#160
+1"
+#165
+0$
+#170
+0"
